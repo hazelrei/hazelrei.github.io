@@ -31,12 +31,7 @@ h3 {
   font-size: 1.17em;
 }
 
-h4,
-p,
-a,
-ul,
-li,
-u {
+h4, p, a, ul, li, u {
   font-size: 1em;
 }
 
@@ -88,22 +83,13 @@ h6 {
   font-size: 2.25em;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bolder;
   color: #eec681;
 }
 
-p,
-a,
-li,
-u,
-ul {
+p, a, li, u, ul {
   font-family: "Merriweather", serif;
   color: #969696;
 }
@@ -188,7 +174,7 @@ ul {
 .logo {
   position: absolute;
   font-size: 1em;
-  width: 15em;
+  width: 12em;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -241,11 +227,6 @@ ul {
   -webkit-transition: 0.25s;
   transition: 0.25s;
   fill: #eec681;
-}
-
-.logo img {
-  width: 100%;
-  height: auto;
 }
 
 .logo:hover svg, .logo:active svg {
