@@ -8,8 +8,8 @@
     <link rel="shortcut icon" href="img/favicon.ico">
 
     <!---->
-    <title>Hazel Real Estate Investments Ltd.</title>
-    <meta name="description" content="Ready to Start Your Real Estate Investing Journey?">
+    <title>Current listings</title>
+    <meta name="description" content="Hazel Real Estate Investments Ltd. - Current listings">
     <meta name="keywords" content="">
 
     <!-- Open graph-->
@@ -63,6 +63,16 @@
     <!-- End of Async Drift Code -->
 </head>
 <body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a class="hs2 font-1 bolder center" href="index.html">Home</a>
+          <a class="hs2 font-1 bolder center" href="about.html">About</a>
+          <a class="hs2 font-1 bolder clip center" href="#">Current Listings</a>
+          <a class="hs2 font-1 bolder center" href="contact_us.html">Contact Us</a>
+        </div>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     <div class="social-box">
         <a href="https://www.facebook.com/Hazel-Real-Estate-Investments-Ltd-104469437766916/" target="_blank" rel="noreferrer nofollow" aria-label="Hazel Facebook">
             <div class="social-icon">
@@ -86,16 +96,7 @@
         </a>
     </div>
 
-    <div class="first-top">
-        <div class="logo">
-            <img src="img/portfolio.svg" alt="Hazel REI">
-        </div>
-    </div>
-    
-    <div class="action-text">
-        <p class="action-first">Current listings</p>
-        <p class="action-second">Let's begin!</p>
-    </div>
+    <h1 class="hs2 font-2 bolder clip center">Current listings</h1>
     
     <div class="slide">
         <p class="hs1 font-2 bolder clip center">McMaster Student housing</p>
@@ -104,7 +105,6 @@
                 <img src="img/mcmaster_1.jpg" alt="Distressed Houses">
             </div>
             <div class="div-cont">
-                <h2>Blablabla</h2>
                 <p class="h3">
                     This home has been renovated to offer clean, comfortable lodging for 8 students (2 rooms currently available).
                 </p>
@@ -131,7 +131,7 @@
                 </p>
             </div>
         </div>
-        <p class="h2 font-2 bolder clip center">Please, <a href="mailto:info@hazelrei.com" target="_blank" rel="noreferrer nofollow" aria-label="Hazel Mail">e-mail</a> me for more details.</p>
+        <p class="h2 font-2 bolder clip center">Please, <a class="font-2" href="mailto:info@hazelrei.com" target="_blank" rel="noreferrer nofollow" aria-label="Hazel Mail">e-mail</a> me for more details.</p>
     </div>
 
     <div class="contacts-form">
@@ -160,19 +160,6 @@
             </a>
         </div>
 
-         <!--
-        <form action="" method="post"  autocomplete="on">
-            <p class="h2 clr-4"> <label for="username" class="fa fa-user" > Name </label><br><input class="h6" type="text" name="username" id="username"  required="required" placeholder="name"  /> </p>
-            <p class="h2 clr-4"> <label for="usermail" class="fa fa-envelope"> E-mail </label><br><input class="h6" type="email" name="usermail" id="usermail" placeholder="email" required="required"  /> </p>
-            <p class="h2 clr-4"> <label for="message" class="fa fa-comment-dots"> Message </label><br><textarea class="h4" name="message" id="message"  placeholder="message" required="required" ></textarea> </p>
-            <p><input class="h2" type="submit" value="Send!" /></p>      
-        </form>
-        <p class="h2 clr-4"> Better yet, see us in person!</p>
-        --!>
-        
-        <!--
-        <div class="typeform-widget" data-url="https://form.typeform.com/to/cukWTc1o" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=cukWTc1o&utm_source=typeform.com-01EP17YC9T767480D515EBKNQT-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
-        -->
     </div>
 
     <footer>
@@ -181,5 +168,18 @@
             <p>Coded by <a href="https://korneev.studio" target="_blank" rel="noreferrer">Korneev Studio</a></p>
         </div>
     </footer>
+    <script>
+        function openNav() {
+          if(document.getElementById("myNav").style.width == "100%"){
+            document.getElementById("myNav").style.width = "0%"
+          } else {
+            document.getElementById("myNav").style.width = "100%"
+          }
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
 </body>
 </html>

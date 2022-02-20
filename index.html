@@ -63,6 +63,17 @@
     <!-- End of Async Drift Code -->
 </head>
 <body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a class="hs2 font-1 bolder clip center" href="#">Home</a>
+          <a class="hs2 font-1 bolder center" href="about.html">About</a>
+          <a class="hs2 font-1 bolder center" href="current_listings.html">Current Listings</a>
+          <a class="hs2 font-1 bolder center" href="contact_us.html">Contact Us</a>
+        </div>
+    </div>
+    <span id="alwaisonscreen"onclick="openNav()">&#9776;Menu</span>
+
     <div class="social-box">
         <a href="https://www.facebook.com/Hazel-Real-Estate-Investments-Ltd-104469437766916/" target="_blank" rel="noreferrer nofollow" aria-label="Hazel Facebook">
             <div class="social-icon">
@@ -182,7 +193,6 @@
     </div>
 
     <div class="contacts-form">
-        
         <h3 class="hs1 font-2 bolder clip center"> Contact me </h3>
         <div class="social-box h1">
             <a href="https://www.facebook.com/Hazel-Real-Estate-Investments-Ltd-104469437766916/" target="_blank" rel="noreferrer nofollow" aria-label="Hazel Facebook">
@@ -228,5 +238,18 @@
             <p>Coded by <a href="https://korneev.studio" target="_blank" rel="noreferrer">Korneev Studio</a></p>
         </div>
     </footer>
+    <script>
+        function openNav() {
+          if(document.getElementById("myNav").style.width == "100%"){
+            document.getElementById("myNav").style.width = "0%"
+          } else {
+            document.getElementById("myNav").style.width = "100%"
+          }
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
 </body>
 </html>
