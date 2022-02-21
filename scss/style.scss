@@ -142,6 +142,9 @@ ul {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+.clip1 {
+	color: $color-4;
+}
 .light {
 	color: $color-3;
 }
@@ -160,6 +163,10 @@ ul {
 }
 .center {
 	text-align: center;
+}
+.underlinetext {
+	text-decoration: underline;
+	color: $color-4;
 }
 
 //END FONTS//

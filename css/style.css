@@ -117,6 +117,10 @@ ul {
   -webkit-text-fill-color: transparent;
 }
 
+.clip1 {
+  color: #eec681;
+}
+
 .light {
   color: white;
 }
@@ -139,6 +143,11 @@ ul {
 
 .center {
   text-align: center;
+}
+
+.underlinetext {
+  text-decoration: underline;
+  color: #eec681;
 }
 
 .social-box {
